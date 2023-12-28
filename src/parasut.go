@@ -157,10 +157,10 @@ type Request struct {
 				VatExemptionReasonCode string `json:"vat_exemption_reason_code,omitempty"`
 				VatExemptionReason     string `json:"vat_exemption_reason,omitempty"`
 				Note                   string `json:"note,omitempty"`
-				ExciseDutyCodes        struct {
-					Product             string `json:"product,omitempty"`
-					SalesExciseDutyCode string `json:"sales_excise_duty_code,omitempty"`
-				} `json:"excise_duty_codes,omitempty"`
+				// ExciseDutyCodes        struct {
+				// 	Product             string `json:"product,omitempty"`
+				// 	SalesExciseDutyCode string `json:"sales_excise_duty_code,omitempty"`
+				// } `json:"excise_duty_codes,omitempty"`
 				InternetSale struct {
 					URL             string `json:"url,omitempty"`
 					PaymentType     string `json:"payment_type,omitempty"`

@@ -1,3 +1,3 @@
 module github.com/ozgur-yalcin/parasut.go
 
-go 1.21.4
+go 1.20
